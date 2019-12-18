@@ -1,6 +1,7 @@
 # Tipraz-Ip-Locator
+For more information go to https://thecodezine.com
 # Note: Only For Educational Purpose and the creator does not take liability if use for unethical purpose
-Kali Linux Perl Tool to Locate Ip address and Site Address
+Kali Linux Tool to Locate Ip address and gather Site Address information. Built in Perl.
 Installation Process:
 # Instruction
 You need install this if the tool not working in your Distro 
