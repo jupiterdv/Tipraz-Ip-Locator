@@ -9,6 +9,6 @@ You need install this if the tool not working in your Distro
 2. apt-get install libjson-perl 
 3. Open Terminal
 4. cd Desktop/
-5. git clone https://github.com/jupi98/Tipraz-Ip-Locator.git
+5. git clone https://github.com/jupiterdv/Tipraz-Ip-Locator.git
 6. cd Tipraz-Ip-Locator
 7. After that perl iplocator.pl
