@@ -33,7 +33,7 @@ Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
 $R@i.~~ !     :   ~$$$$$B$$en:``
 ?MXT@Wx.~    :     ~"##*$$$$M~
 
-
+Only For Educational Purpose
 Tipraz Ip Locator Tool
 By : Jupiter Dark Soulz
 
