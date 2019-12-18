@@ -6,4 +6,7 @@ Installation Process:
 You need install this if the tool not working in your Distro 
 1. sudo apt-get install liblocal-lib-perl 
 2. apt-get install libjson-perl 
-3. After that ./iplocator.pl
+3. Open Terminal
+4. cd Desktop/
+5. git clone https://github.com/jupi98/Tipraz-Ip-Locator.git
+6. After that ./iplocator.pl
