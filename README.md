@@ -1,6 +1,6 @@
 # Tipraz-Ip-Locator
 Kali Linux Tool to Locate Ip address and gather website information. Built in Perl.
-For more information go to https://thecodezine.com
+For more script and information go to <a href="https://thecodezine.com rel="dofollow">The Codezine</a>
 # Note: Only For Educational Purpose and the creator does not take liability if use for unethical purpose
 # Instruction
 You need install this if the tool not working in your Distro 
