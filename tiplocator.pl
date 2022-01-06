@@ -12,26 +12,6 @@ print color 'bold red';
  
 print q{
 
-                :::!~!!!!!:.
-                  .xUHWH!! !!?M88WHX:.
-                .X*#M@$!!  !X!M$$$$$$WWx:.
-               :!!!!!!?H! :!$!$$$$$$$$$$8X:
-              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
-             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
-             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
-               !:~~~ .:!M"T#$$$$WX??#MRRMMM!
-               ~?WuxiW*`   `"#$$$$8!!!!??!!!
-             :X- M$$$$       `"T#$T~!8$WUXU~
-            :%`  ~#$$$m:        ~!~ ?$$$$$$
-          :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
-.....   -~~:<` !    ~?T#$$@@W@*?$$      /`
-W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
-#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
-:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
-.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
-Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
-$R@i.~~ !     :   ~$$$$$B$$en:``
-?MXT@Wx.~    :     ~"##*$$$$M~
 
 Only For Educational Purpose
 Tipraz Ip Locator Tool
@@ -46,30 +26,12 @@ my @ip = inet_ntoa(scalar gethostbyname("@iphost")or die "IP or Host invalid!\n"
 my @hn = scalar gethostbyaddr(inet_aton(@ip),AF_INET);
  
 my $GET=WWW::Mechanize->new();
-    $GET->get("http://ip-api.com/json/@ip"); # JSON API OF IP-API.COM
+    $GET->get("http://ip-api.com/json/@ip"); 
     my $json = $GET->content();
  
  
 my $info = decode_json($json);
-# Json API Response :
-# A successful request will return, by default, the following:
-#{
-#    "status": "success",
-#    "country": "COUNTRY",
-#    "countryCode": "COUNTRY CODE",
-#    "region": "REGION CODE",
-#    "regionName": "REGION NAME",
-#    "city": "CITY",
-#    "zip": "ZIP CODE",
-#    "lat": LATITUDE,
-#    "lon": LONGITUDE,
-#    "timezone": "TIME ZONE",
-#    "isp": "ISP NAME",
-#    "org": "ORGANIZATION NAME",
-#    "as": "AS NUMBER / NAME",
-#   "query": "IP ADDRESS USED FOR QUERY"
-# }
-# INFOS OF JSON API ...
+
  
 print "  [!] IP: ", $info->{'query'}, "\n";
 print "------------------------------------\n"; 
